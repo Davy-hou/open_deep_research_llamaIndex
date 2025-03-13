@@ -1,0 +1,9 @@
+llama-index
+llama-index-llms-ollama
+python-dotenv
+aiohttp
+tavily-python
+llama-index-llms-openrouter
+fastapi
+uvicorn
+pydantic
