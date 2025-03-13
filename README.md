@@ -25,6 +25,7 @@ pip install -r requirements.txt
 ## Quick Start
 
 go to examples folder and run `basic_research.py`
+
 ## Configuration
 
 Create a `.env` file in your project root (see `.env.example` for a template):
@@ -33,21 +34,6 @@ Create a `.env` file in your project root (see `.env.example` for a template):
 # API Keys
 OPEN_ROUTER_API_KEY=your_openrouter_api_key_here
 TAVILY_API_KEY=your_tavily_api_key_here
-
-# LLM Configuration
-OPEN_ROUTER_MODEL=google/gemini-2.0-flash-exp:free
-MAX_TOKENS=48096
-CONTEXT_WINDOW=1000000
-
-# Search Configuration
-SEARCH_DEPTH=advanced
-MAX_SEARCH_RESULTS=1
-MAX_QUERIES_PER_SECTION=3
-
-# Workflow Configuration
-WORKFLOW_TIMEOUT=300
-SEARCH_WORKFLOW_TIMEOUT=60
-VERBOSE=True
 ```
 
 ## Project Structure
